@@ -1,0 +1,67 @@
+# Validation Report - Đồ án Khai thác Dữ liệu
+
+## Kiểm tra cấu trúc thư mục
+
+### Thư mục bắt buộc:
+- [x] project/data/raw/
+- [x] project/data/processed/
+- [x] project/src/preprocess/
+- [x] project/src/models/
+- [x] project/src/evaluation/
+- [x] project/src/utils/
+- [x] project/src/main.ipynb
+- [x] project/report/draft/
+- [x] project/report/final/
+- [x] project/slides/
+- [x] project/environment/install.md
+- [x] project/environment/requirements.txt
+- [x] project/README.md
+
+## Kiểm tra Dataset
+
+### Yêu cầu:
+- Dataset phải có >= 5 cột
+- Dataset phải có >= 500 dòng
+- Phải có thông tin nguồn dữ liệu
+
+### Nguồn dữ liệu:
+- URL: https://www.kaggle.com/datasets/nguyentiennhan/vietnam-housing-dataset-2024
+
+### Trạng thái:
+- [ ] Dataset đã được download và đặt vào data/raw/
+- [ ] Đã kiểm tra số cột >= 5
+- [ ] Đã kiểm tra số dòng >= 500
+- [ ] Đã tạo thống kê mô tả
+
+## Kiểm tra Source Code
+
+### Files đã tạo:
+- [x] src/utils/descriptive_stats.py
+- [x] src/preprocess/preprocess.py
+- [x] src/models/train_xgboost.py
+- [x] src/models/predict_xgboost.py
+- [x] src/evaluation/evaluate.py
+- [x] src/main.ipynb
+
+### Files cần tạo khi có dataset:
+- [ ] report/descriptive_stats.md
+- [ ] report/descriptive_stats.csv
+- [ ] data/processed/X_train.csv
+- [ ] data/processed/X_test.csv
+- [ ] data/processed/y_train.csv
+- [ ] data/processed/y_test.csv
+- [ ] src/models/preprocessor.pkl
+- [ ] src/models/xgboost_model.pkl
+- [ ] src/models/xgboost_model.json
+- [ ] src/evaluation/regression_scatter.png
+- [ ] src/evaluation/residuals_plot.png
+- [ ] report/evaluation.md
+- [ ] report/final/report.pdf
+- [ ] slides/presentation.pptx hoặc .pdf
+
+## Ghi chú
+
+- Cấu trúc thư mục đã được tạo đầy đủ
+- Source code cơ bản đã được tạo
+- Cần download dataset và chạy workflow trong main.ipynb để hoàn thiện
+
