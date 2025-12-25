@@ -20,6 +20,7 @@ wheels/
 *.egg
 
 *.pkl
+!src/models/*.pkl
 *.joblib
 *.h5
 *.hdf5
